@@ -1,0 +1,3 @@
+### run this comand to run KUSTOMIZATION FOLDER WITH ALL FILES ... 
+### This command runs all the manifest files and creates k8s resources
+kubectl apply -k .
