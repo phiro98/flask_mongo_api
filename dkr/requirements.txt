@@ -6,3 +6,4 @@ pymysql
 apscheduler
 flask.ext
 pymongo
+dotenv
