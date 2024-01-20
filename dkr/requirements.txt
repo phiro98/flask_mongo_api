@@ -5,3 +5,4 @@ PyJWT
 pymysql
 apscheduler
 flask.ext
+pymongo
