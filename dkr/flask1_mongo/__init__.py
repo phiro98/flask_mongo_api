@@ -8,7 +8,7 @@ app = Flask(__name__)
 # MongoDB configuration with user credentials
 mongodb_username = environ.get('username')
 mongodb_password = environ.get('password')
-mongodb_host = 'your_mongodb_host'  # Example: 'localhost' or 'mongodb.example.com'
+mongodb_host = 'your_mongodb_host'  # external ip of mongo k8s service
 mongodb_port = 27017
 mongodb_database = environ.get('db_name')
 mongodb_uri = f'mongodb://{mongodb_username}:{mongodb_password}@{mongodb_host}:{mongodb_port}/{mongodb_database}'
